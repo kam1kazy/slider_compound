@@ -1,0 +1,23 @@
+.App {
+  display: flex;
+  flex-direction: column;
+  font-family: sans-serif;
+  text-align: center;
+}
+.item {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  user-select: none;
+  height: 100%;
+  width: 100%;
+}
+.item-1 {
+  background-color: cornflowerblue;
+}
+.item-2 {
+  background-color: coral;
+}
+.item-3 {
+  background-color: darkseagreen;
+}

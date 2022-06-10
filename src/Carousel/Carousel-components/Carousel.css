@@ -1,0 +1,22 @@
+.main-container {
+  height: 150px;
+  width: 100%;
+  margin: 0 auto;
+
+  display: flex;
+  align-items: center;
+}
+.window {
+  height: 100%;
+  width: 100%;
+  overflow: hidden;
+}
+.all-pages-container {
+  height: 100%;
+  display: flex;
+  transition: translate 0.4s ease-in-out;
+  transition-property: transform;
+}
+.arrow {
+  cursor: pointer;
+}
